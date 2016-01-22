@@ -1,0 +1,51 @@
+.profilepic {
+	height: 350px;
+    width: 300px;
+    display: inline;
+    padding-left: 27px;
+}
+.profiletext {
+	display: inline-block;
+	height:142px;
+	width:300px;
+	bottom:100px;
+	position:relative;
+	top:-218px;
+	color:white;
+	font-size:20px;
+	padding-left:10px;
+	padding-right:10px;
+	background-color:slategrey;
+
+}
+.mainbox {
+	background: url(http://wallpapersdesk.net/wp-content/uploads/2015/03/1484_space.jpg);
+	height:800px;
+	margin:auto;
+}
+.name {
+	margin:5px;
+	margin-left:26px;
+	margin-right:0px;
+	font-size:60px;
+	padding-left:20px;
+	color:white;
+	background-color:steelblue;
+}
+.info{
+	position:absolute;
+	display:inline-block;
+	padding-left: 12px;
+	padding-top: 5px;
+	margin-right:-11px;
+	bottom:135px;
+	height:197px;
+	width:308px;
+	color:white;
+	right:459px;
+	background-color:slategrey;
+}
+.bold {
+	font-weight:bold;
+	font-size:17px;
+}
