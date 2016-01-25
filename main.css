@@ -20,32 +20,67 @@
 }
 .mainbox {
 	background: url(http://wallpapersdesk.net/wp-content/uploads/2015/03/1484_space.jpg);
-	height:800px;
-	margin:auto;
+	height: 484px;
+    margin: auto;
+    width: 969px;
+    text-decoration: none;
 }
 .name {
 	margin:5px;
 	margin-left:26px;
 	margin-right:0px;
 	font-size:60px;
-	padding-left:20px;
+	padding-left:4px;
 	color:white;
 	background-color:steelblue;
 }
 .info{
-	position:absolute;
+	position:relative;
 	display:inline-block;
 	padding-left: 12px;
 	padding-top: 5px;
 	margin-right:-11px;
-	bottom:135px;
+	bottom:31px;
 	height:197px;
 	width:308px;
 	color:white;
-	right:459px;
+	right:324px;
 	background-color:slategrey;
 }
 .bold {
 	font-weight:bold;
 	font-size:17px;
+}
+.namebox {
+	position: absolute;
+    top: 9px;
+    right: 659px;
+    height: 60px;
+    width: 354px;
+    font-size: 60px;
+    background-color:steelblue;
+    border-style:none;
+}
+.introbox {
+	position: absolute;
+    top: 84px;
+    left: 413px;
+    height: 134px;
+    width: 300px;
+    background-color:slategrey;
+    border-style:none;
+    font-size:17px;
+}
+.aboutbox {
+	position: absolute;
+    top: 234px;
+    right: 403px;
+    width: 298px;
+    height: 183px;
+    background-color:slategrey;
+    border-style:none;
+    font-size: 17px;
+}
+.namelink {
+	text-decoration: none;
 }

@@ -6,23 +6,22 @@
 	<script type="text/javascript" src="angular.js"></script>
 	<link rel="stylesheet" type="text/css" href="main.css">
 </head>
-<body ng-contoller="mainTroller">
+<body ng-controller="mainTroller">
 	<div class="mainbox">
-		<h1 class="name">Darth Varder</h1>
+		<a class="namelink" href="#" ng-click="clickr()" ng-blur="hideName">
+			<h1 class="name">Darth Varder</h1>
+		</a>
 		<img class="profilepic" src="http://www2.b3ta.com/host/creative/55979/1263218728/VaderLeiaFlowers.jpg">
-		<h4 class= "profiletext">Just a Sith Lord looking for new love. I've had my heart broken before, so preferably someone who is into the whole darkside thing. Also, the girl in the picture is my daughter. We no longer speak.</h4>
-		<p class="info"> <span class="bold">Hobbies:</span> Force choking insubordinates, bowing to Darth Sidious, polishing my light saber (get your mind out of the gutter!)<br><br><span class="bold">Favorite Color:</span> Black (duh!)<br><br><span class="bold">Age:</span> 45<br><br><span class="bold">Location:</span> Death Star</p>
+		<h4 class= "profiletext" ng-click="introClickr()" ng-blur="introHide">Just a Sith Lord looking for new love. I've had my heart broken before, so preferably someone who is into the whole darkside thing. Also, the girl in the picture is my daughter. We no longer speak.</h4>
+		<p class="info" ng-click="aboutClickr()" ng-blur="aboutHide"> <span class="bold">Hobbies:</span> Force choking insubordinates, bowing to Darth Sidious, polishing my light saber (get your mind out of the gutter!)<br><br><span class="bold">Favorite Color:</span> Black (duh!)<br><br><span class="bold">Age:</span> 45<br><br><span class="bold">Location:</span> Death Star</p>
 		<form>
-			<input type="text" name="Fname">
+			<input type="text" placeholder="Full Name:" class="namebox" ng-show="showBox">
 		</form>
 		<form>
-		<input type="text" name="Fname">
+			<input type="text" placeholder="About You:" class="introbox" ng-show="showIntro">
 		</form>
 		<form>
-		<input type="text" name="Fname">
+			<input type="text" placeholder="Hobbies, Location, Age, etc." class="aboutbox" ng-show="showAbout">
 		</form>
-		<form>
-		<input type="text" name="Fname">
-		</form>
-	</div>
 </body>
+	</div>
